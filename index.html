@@ -49,15 +49,16 @@
 <header>
  <div class="container-fluid">
    <div class="row">
-     <div class="col-xs-7 col-md-5 col-md-offset-7 col-xs-offset-5 no-pad">
+     <div class="col-xs-5 col-md-5 col-lg-5 col-sm-5 pull-right no-pad">
        <div class="jumbotron">
-         <h3>Disfruta del Viaje</h3>
-         <h3>Eres dueño del tiempo</h3>
+         <h3 class="hidden-xs hidden-sm">Disfruta del Viaje</h3>
+         <h3 class="hidden-xs">Eres dueño del tiempo</h3>
+         <h3 class="hidden-lg hidden-md">Comienza a viajar</h3>
          <h4>Viaja con <img src="assets/images/logoBlanco.png"></h4>
-
-       <button type="button" class="btn btn-default">REGÍSTRATE</button>
-       <div class="lines">o bien </div>
-       <button type="button" class="btn btn-default">Conviértete en un conductor</button>
+         <button type="button" class="btn btn-default hidden-lg hidden-md">Descarga el app</button>
+       <button type="button" class="btn btn-default hidden-xs hidden-md">REGÍSTRATE</button>
+       <div class="lines hidden-xs hidden-md">o bien </div>
+       <button type="button" class="btn btn-default hidden-xs hidden-md">Conviértete en un conductor</button>
        </div>
 
      </div>
@@ -69,12 +70,15 @@
         <div class="container-fluid phone">
           <div class="jumbotron">
             <div class="row">
-              <div class="col-md-4 col-sx-4">
+              <div class="col-md-4 col-sm-4 col-lg-4 col-sx-4">
+                <h2 class="hidden-lg hidden-md">La nueva app</h2>
+
                 <img src="assets/images/iphone6Plus.png">
               </div>
 
                 <div class="col-md-5 col-sx-4">
-                <h1>Descarga la nueva APP</h1>
+                <h1 class="hidden-xs hidden-sm">Descarga la nueva APP</h1>
+                <h4 class="hidden-lg hidden-md">LLega a tu destino aún más rápido</h4>
                 <p>La versión actualizada de LabCar esta llena de nuesvas funciones para llegar donde quieras aún más fácil y rápido.</p>
                 <p>Con solo tomar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes:tu conductor sabe exactamente a donde ir.</p>
               </div>
@@ -105,7 +109,7 @@
           <div class="container-fluid map">
             <div class="jumbotron">
               <div class="row">
-                  <div class="col-md-6 col-sx-4 no-pad">
+                  <div class="col-md-6 col-sx-12 col-sm-12 col-lg-6 no-pad">
                   <h3>Tarifas</h3>
                   <h4>Consulta las tarifas LabCard aquí</h4>
 
@@ -113,7 +117,7 @@
                   <nav class="navbar navbar-check">
                   <div class="container-fluid">
                   <div class="navbar-header">
-                  <a class="navbar-brand" href="#"><img src="assets/images/shape.png"></a>
+                  <img class="img-responsive input1"src="assets/images/shape.png">
                 </div>
                 <ul class="nav navbar-nav">
                 <li class="active"><input type="text" class="form-control" placeholder="Ingrese su destino" aria-describedby="sizing-addon2"></li>
@@ -148,27 +152,32 @@
               <!--Footer Links-->
                     <div class="container-fluid">
                   <!-- Footer links -->
-                   <div class="row text-center text-md-left mt-3 pb-3">
+                   <div class="row">
+                     <div class="col-12">
+
                     <a class="navbar-brand" href="#"><img src="assets/images/logoBlanco.png"></a>
                   </div>
-                  <hr>
+                </div>
+                    <hr>
                       <!--First column-->
+                      <div class="row">
                       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <!--Social buttons-->
-                        <div class="social-section text-center text-md-left">
-                            <ul>
+
                               <i class="fa fa-facebook" aria-hidden="true"></i>
                               <i class="fa fa-twitter icono" aria-hidden="true"></i>
                               <i class="fa fa-linkedin" aria-hidden="true"></i>
                               <i class="fa fa-apple" aria-hidden="true"></i>
                               <i class="fa fa-play" aria-hidden="true"></i>
-                            </ul>
+
                         </div>
                         <!--/.Social buttons-->
-                      </div>
+
+
+
                       <!--/.First column-->
                       <!--Second column-->
-                      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <div class="col-md-6 col-lg-3 col-xs-6 mx-auto mt-3">
                           <p><a href="#!">Viaja</a></p>
                           <p><a href="#!">Conduce</a></p>
                           <p><a href="#!">Cuidades</a></p>
@@ -179,7 +188,7 @@
                       </div>
                       <!--/.Second column-->
                       <!--Third column-->
-                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <div class=" hidden-xs hidden-sm col-md-3 col-lg-3 col-xs-3 mx-auto mt-3">
                           <p><a href="#!">Oportunidades</a></p>
                           <p><a href="#!">Nueva historia</a></p>
                           <p><a href="#!">API de LabCar</a></p>
@@ -191,7 +200,7 @@
                       </div>
                       <!--/.Third column-->
                       <!--Fourth column-->
-                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <div class="col-md-3 col-lg-3 col-xs-6 col-sm-6">
                         <li>
                           <a href="#"><img class="hipervinculo"src="assets/images/appstore.png" alt=""></a>
                           <a href="#"><img class="hipervinculo"src="assets/images/enBadgeWebGeneric.png" alt=""></a>
