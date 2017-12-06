@@ -1,0 +1,136 @@
+/* Los estilos de tu proyecto */
+header{
+background-image: url(../images/taxi.jpg);
+background-size: cover;
+background-position:bottom;
+padding: 5% 0;
+}
+.no-pad{
+  padding-right: 0;
+}
+.navbar{
+  margin-bottom: 0;
+}
+.jumbotron{
+background-color: #ffc107;
+color:#fff;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+border-radius: initial;
+padding-top: 2em;
+}
+.jumbotron h1{
+font-size: 2em;
+}
+.jumbotron p{
+font-size: 1.3em;
+padding-top: 1em;
+}
+.jumbotron h4{
+padding-top: 1em;
+padding-bottom: 1em;
+}
+.navbar-brand{
+font-size: 1em;
+}
+.btn.btn-default{
+background-color:#FFF;
+color: #000;
+margin-top: 1em;
+}
+.row.container{
+margin-top:5em;
+}
+.lines::after{
+content: "";
+border-bottom: 1px solid white;
+padding: 0 5.5em;
+margin-left:2em;
+}
+.lines::before{
+content: "";
+border-bottom: 1px solid white;
+padding: 0 5.5em;
+margin-right: 2em;
+
+}
+.phone{
+background-color: #ffc107;
+}
+.drive{
+background-image: url(../images/conduce.jpg);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+.jumbotron-driver{
+background-color: rgba(0,0,0,.5);
+border-radius: 0;
+padding: 6em;
+color:#FFF;
+padding: 7em;
+}
+.container-fluid.map{
+background-color: #ffc107;
+}
+.btn-route{
+background-color:#FFF;
+color: #000;
+margin-top: 1em;
+border-radius: 0px;
+margin-left: 5em;
+}
+.navbar-check{
+background-color:#ffc107;
+border-color: #ffc107;
+}
+.form-control{
+background-color:#ffc107;
+border:1px solid #fff;
+}
+footer{
+background-color:#333447;
+color:#fff;
+font-size: 20px;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 50px;
+list-style: none;
+font-size: 1em;
+}
+a{
+color:#fff;
+}
+.text-center{
+list-style:none;
+}
+.web{
+background-color: white;
+}
+.fa.fa{
+font-size: 1.5em;
+margin-top: 10em;
+padding: .2em;
+}
+.hipervinculo{
+padding: 1em;
+}
+/*Media Querie*/
+@media screen and (max-width: 768px){
+.container-fluid.drive{
+height:50%;
+}
+.btn.btn-route{
+margin-left: 10em;
+margin-bottom: 1em;
+}
+.jumbotron p{
+display: none;
+}
+.fa.fa{
+font-size: 1.5em;
+margin-top: 1em;
+float: right;
+}
+
+  }
